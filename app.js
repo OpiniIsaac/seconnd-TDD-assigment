@@ -1,10 +1,10 @@
 
 function factorialize(num) {
-    // if (num === 0 || num === 1)
-    //     return 1;
-    for (var i = num - 1; i >= 1; i--) {
-        num *= i;
+    let number = 1;
+    for (var i = number; i <= num; i++) {
+        number *= i;
+        // console.log(number);
     }
-    return num;
+    return number;
 }
 module.exports = factorialize;
