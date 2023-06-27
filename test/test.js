@@ -16,6 +16,10 @@ describe('first module', () => {
         let result = factorialize(2);
         assert.equal(result, 2);
     });
+    it('thirdtest', () => {
+        let result = factorialize(0);
+        assert.equal(result, 1);
+    });
 });
 
 
