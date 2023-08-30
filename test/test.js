@@ -6,11 +6,11 @@ const { describe, it } = require('mocha');
 describe('first module', () => {
     it('first test', () => {
         let result = factorialize(6);
-        assert.equal(result, 720);
+        assert.equal(result, 71);
     });
     it('second test', () => {
-        let result = factorialize(1);
-        assert.equal(result, 1);
+        let result = factorialize(0);
+        assert.equal(result, 21);
     });
     it('thirdtest', () => {
         let result = factorialize(2);
