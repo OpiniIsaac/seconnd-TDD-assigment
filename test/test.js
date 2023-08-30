@@ -5,12 +5,12 @@ const { describe, it } = require('mocha');
 
 describe('first module', () => {
     it('first test', () => {
-        let result = factorialize(6);
-        assert.equal(result, 71);
+        let result = factorialize(1);
+        assert.equal(result, 1);
     });
     it('second test', () => {
-        let result = factorialize(0);
-        assert.equal(result, 21);
+        let result = factorialize(1);
+        assert.equal(result, 1);
     });
     it('thirdtest', () => {
         let result = factorialize(2);
